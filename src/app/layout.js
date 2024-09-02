@@ -14,10 +14,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
    <Navbar/>
-     <div className="h-screen">
+     <div className="">
      {children}
      </div>
-        <footer>
+        <footer className="bg-blue-400">
           This is Footer
         </footer>
         </body>

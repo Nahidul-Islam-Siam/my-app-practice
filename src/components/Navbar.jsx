@@ -20,6 +20,10 @@ export default function Navbar() {
       title: "Contacts",
       path: '/contacts'
     },
+    {
+      title: "Blogs",
+      path: '/blogs'
+    },
    
   ]
   const handler =()=>{
