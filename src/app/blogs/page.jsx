@@ -10,7 +10,7 @@ const BlogsPage = () => {
 <h3 >{blog.title}</h3>
 <h3>{blog.description}</h3>
 <button className="bg-red-400 p-3">
-<Link href={blog.slug}>View Details</Link>
+<Link href={`/blogs/${blog.slug}`}>View Details</Link>
     </button>
                 </div>
             ))
