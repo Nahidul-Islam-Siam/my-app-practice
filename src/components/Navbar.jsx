@@ -29,6 +29,13 @@ export default function Navbar() {
   const handler =()=>{
 router.push('/login')
   }
+
+  if(pathName.includes(`dashboard`))
+     return(
+    <div className='bg-green-400'>
+Dashboard Layout
+    </div>
+  )
   return (
     <div>
              <nav className="bg-red-500 px-6 py-4 flex justify-between items-center ">
